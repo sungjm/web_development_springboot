@@ -13,7 +13,7 @@ public class Member {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "name", nullable = false)
-    private_Long id; // DB 테이블의 'id' 컬럼과 매칭
+    private Long id; // DB 테이블의 'id' 컬럼과 매칭
 
     @Column(name = "name", nullable = false)
     private String name; // DB 테이블의 'name' 컬럼과 매칭

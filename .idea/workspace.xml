@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4da2dda-fe54-49b6-a01f-9076dc098eee" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/chapter03/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/src/main/java/me/sungjm/springbootdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/src/main/java/me/sungjm/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/src/main/java/me/sungjm/springbootdeveloper/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/src/main/java/me/sungjm/springbootdeveloper/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter00/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter00/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
