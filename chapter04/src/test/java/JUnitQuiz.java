@@ -46,5 +46,8 @@ public class JUnitQuiz {
             assertThat(number1).isGreaterThan(number2);
         //3
             assertThat(number3).isLessThan(number2);
+
+
+        // test/java에 -> JUnitCylceQuiz.java
     }
 }
