@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4da2dda-fe54-49b6-a01f-9076dc098eee" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/me/sungjm/springbootdeveloper/QuizController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/test/java/JUnitCycleQuiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/test/java/me/sungjm/springBootDeveloper/QuizControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/test/java/me/sungjm/springBootDeveloper/TestControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/src/test/java/JUnitQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/src/test/java/JUnitQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/src/test/java/me/sungjm/springBootDeveloper/QuizControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/src/test/java/me/sungjm/springBootDeveloper/QuizControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/sungjm/sungjm_springboot/chapter04"
+    "last_opened_file_path": "C:/sungjm/sungjm_springboot/chapter05"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
