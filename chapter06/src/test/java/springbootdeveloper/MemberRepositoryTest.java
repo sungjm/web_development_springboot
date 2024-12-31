@@ -1,4 +1,4 @@
-package me.sungjm.springbootdeveloper;
+package springbootdeveloper;
 /*
     MemberRepositoryTest를 만들었지만, 데이터 조회를 위해서
     입력된 데이턱 필요하기 때문에 테스트용 데이터를 추가할 예정
@@ -8,19 +8,22 @@ package me.sungjm.springbootdeveloper;
     이제 MemberRepositoryTest.java 파일 코드 작성
  */
 
+import me.sungjm.springbootdeveloper.Member;
+import me.sungjm.springbootdeveloper.MemberRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.jdbc.Sql;
 
 import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest
 class MemberRepositoryTest {
 
     @Autowired
-     MemberRepository memberRepository;
+    MemberRepository memberRepository;
 
     @Sql("/insert-members.sql")
     @Test

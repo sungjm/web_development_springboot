@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4da2dda-fe54-49b6-a01f-9076dc098eee" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/QuizController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/java/me/sungjm/springbootdeveloper/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/src/test/java/me/sungjm/springBootDeveloper/QuizControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/src/test/java/me/sungjm/springBootDeveloper/QuizControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a4da2dda-fe54-49b6-a01f-9076dc098eee" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
