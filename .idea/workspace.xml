@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4da2dda-fe54-49b6-a01f-9076dc098eee" name="변경" comment="" />
+    <list default="true" id="a4da2dda-fe54-49b6-a01f-9076dc098eee" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/me/sungjm/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/me/sungjm/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/me/sungjm/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/me/sungjm/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/me/sungjm/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/me/sungjm/springbootdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/java/me/sungjm/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
