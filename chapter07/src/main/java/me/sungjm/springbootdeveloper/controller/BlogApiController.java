@@ -5,9 +5,9 @@ import me.sungjm.springbootdeveloper.domain.Article;
 import me.sungjm.springbootdeveloper.dto.AddArticleRequest;
 import me.sungjm.springbootdeveloper.dto.ArticleResponse;
 import me.sungjm.springbootdeveloper.dto.UpdateArticleRequest;
+import me.sungjm.springbootdeveloper.service.BlogService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import me.sungjm.springbootdeveloper.service.BlogService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -3,6 +3,7 @@ package me.sungjm.springbootdeveloper.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import me.sungjm.springbootdeveloper.domain.Article;
 import me.sungjm.springbootdeveloper.dto.AddArticleRequest;
+import me.sungjm.springbootdeveloper.dto.UpdateArticleRequest;
 import me.sungjm.springbootdeveloper.repository.BlogRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -20,9 +21,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -221,4 +220,40 @@ public void addArticle() throws Exception {
         // articles 내에는 아무런 값도 없어야만 합니다.
         assertThat(articles).isEmpty();
     }
+
+    @DisplayName("updateArticle : 블로그 글 수정 성공")
+    @Test
+    public void updateArticle() throws Exception {
+        // given
+        final String url = "/api/articles/{id}";
+        final String title = "제목";
+        final String content = "내용";
+
+        // 위의 필드 값을 가지는 Article 객체를 하나 생성(builder패턴으로)
+        // 그 객체의 필드 값들을 수정하고, 후에 일치하는지 확인하는 프로세스
+        Article savedArticle = blogRepository.save(Article.builder()
+                        .title(title)
+                        .content(content)
+                .build());
+
+        final String newTitle = "새 제목";
+        final String newContent = "새 내용";
+
+        UpdateArticleRequest request = new UpdateArticleRequest(newTitle, newContent);
+
+        // when
+        ResultActions resultActions = mockMvc.perform(put(url, savedArticle.getId())
+                .contentType(MediaType.APPLICATION_JSON_VALUE)
+                .content(objectMapper.writeValueAsString(request)));
+
+        // then
+        resultActions.andExpect(status().isOk());
+
+        Article article = blogRepository.findById(savedArticle.getId()).get();
+
+        assertThat(article.getTitle()).isEqualTo(newTitle);
+        assertThat(article.getContent()).isEqualTo(newContent);
+
+    }
+
 }
