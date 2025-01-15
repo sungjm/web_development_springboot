@@ -19,9 +19,9 @@ public class SpringBootDeveloperApplication {
         -> UserViewController가 해당 요청에 대한 분기 처리를 하고 WebSecurityConfig에 설정한 보안 관련
             내용들을 실행
         -> UserDetailsService를 실행하면 요청을 성공했을 때
-        -> defaultSuccessUrl로 설정한 /articles로 리다이렉트 하거나 csrf를 disable하거나 하는 등의 작업
+        -> defaultSuccessUrl로 설정한 /articles로 리다이렉트 하거나 csrf를 disableㅎ하거나 하는 등의 작업
 
-        UserDeatilsService에서는 loadUserByUsername() 메서드를 실행하여 이메일로 유저를 찾고 반환.
+        UserDetailsService에서는 loadUserByUsername() 메서드를 실행하여 이메일로 유저를 찾고 반환.
 
         여기서 유저는 User 클래스의 객체이고 UserRepository에서 실제 데이터를 가져 올겁니다.
 
@@ -35,7 +35,7 @@ public class SpringBootDeveloperApplication {
         1. 스프링 시큐리티(Spring Security)
             1) 인증 vs 인가
                 (1) 인증(Authentication) : 사용자의 신원을 입증하는 과정
-                    예를 들어 사용자가 사이트에 로그인 할 때 누구인지 확인하는 과정을 인증이라고 함.
+                    예를 들어 사용자가 사이트에 로그인할 때 누구인지 확인하는 과정을 인증이라고 함.
 
                 (2) 인가(Authorization) : 사이트의 특정 부분에 접근할 수 있는지 권한을 확인하는 작업
                     예를 들어 관리자는 관리자 페이지에 들어갈 수 있지만 일반 사용자는 관리자 페이지에
@@ -54,7 +54,8 @@ public class SpringBootDeveloperApplication {
                 내부적으로 아까 보여드린 그림처럼 꽤 복잡한 과정을 거치게 될겁니다.
 
                 모두 외워야 하는 거 x, 다만 로그인 과정이 어떤 흐름으로 이어지는 지를 이해하면 더 잘 활용 가능
-                일단은 회원 가입 / 로그인 관련 부분을 코딩으로 풀어나갈 얘정
+                일단은 회원 가입 / 로그인 관련 부분을 코딩으로 풀어나갈 예정
+
 
         2. 회원 도메인 만들기
             스프링 시큐리티를 활용한 인증, 인가 기능 구현 예정.
@@ -62,5 +63,19 @@ public class SpringBootDeveloperApplication {
             테이블과 연결할 도메인을 만들고,
             이 테이블과 연결할 회원 엔티티를 만들 겁니다.
             회원 엔티티와 연결되어 데이터를 조회하게 해줄 리포지토리가 추가되구요, 마지막으로
-            스프링 시큐리티에서 사용자 정보를 가져오는 서비스를 구현할 예정.
+            스프링 시큐리티에서 사용자 정보를 가져오는 서비스를 구현할 예정
+
+            -> build.gradle에서 의존성 추가할게요.
+
+
+
+
+
+
+
+
+
+
+
+
  */

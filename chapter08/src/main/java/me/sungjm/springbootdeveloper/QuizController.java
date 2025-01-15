@@ -3,10 +3,10 @@ package me.sungjm.springbootdeveloper;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@RestController             // 우리는 매우 자주 사용할 예정입니다.
+@RestController
 public class QuizController {
 
-    @GetMapping("/quiz")            // (1)
+    @GetMapping("/quiz")
     public ResponseEntity<String> quiz(@RequestParam("code") int code) {
         switch (code) {
             case 1:
@@ -18,7 +18,7 @@ public class QuizController {
         }
     }
 
-    @PostMapping("/quiz")       // (2)
+    @PostMapping("/quiz")
     public ResponseEntity<String> quiz2(@RequestBody Code code) {
 
         switch (code.value()) {
@@ -30,5 +30,6 @@ public class QuizController {
     }
 }
 
-record Code(int value) {}   //  (3)
+record Code(int value) {}
+
 

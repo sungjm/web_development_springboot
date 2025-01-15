@@ -4,7 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4da2dda-fe54-49b6-a01f-9076dc098eee" name="변경" comment="" />
+    <list default="true" id="a4da2dda-fe54-49b6-a01f-9076dc098eee" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/dto/AddUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/service/UserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/springbootdeveloper/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/QuizController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/controller/BlogApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/controller/BlogViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/controller/ExampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/controller/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/controller/UserViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/dto/AddArticleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/dto/ArticleListViewResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/dto/ArticleViewResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/repository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/service/UserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/service/UserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/me/sungjm/springbootdeveloper/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/resources/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/resources/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/resources/resources/templates/articleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/resources/resources/templates/articleList.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +91,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/sungjm/sungjm_springboot"
+    "last_opened_file_path": "C:/sungjm2/web_development_springboot/chapter08"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />

@@ -1,6 +1,5 @@
 package me.sungjm.springbootdeveloper.dto;
 
-
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import me.sungjm.springbootdeveloper.domain.Article;

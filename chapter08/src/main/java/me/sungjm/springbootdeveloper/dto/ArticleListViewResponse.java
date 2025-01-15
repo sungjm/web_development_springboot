@@ -14,4 +14,5 @@ public class ArticleListViewResponse {
         this.title = article.getTitle();
         this.content = article.getContent();
     }
+
 }
